@@ -1,0 +1,104 @@
+/* App.css */
+.App {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: 	#B2FFFF;
+    color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .hero {
+    background-image: url('https://media.istockphoto.com/id/1438786786/photo/silhouettes-of-a-latin-couple-sitting-on-the-top-of-the-hill-looking-at-shooting-stars-and.jpg?s=612x612&w=0&k=20&c=Nt1ZfU5Em2yj3IsqgFZ6m3Wphwj6zQeQMSt___SiP3w=');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 200px 0;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .destinations {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .destination {
+    margin-bottom: 40px;
+    
+  }
+  
+  .destination img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .contact-form {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer-content {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .social-links a {
+    color: #fff;
+    margin: 0 10px;
+  }
+  
